@@ -6,7 +6,7 @@ let server: Server;
 
 async function bootstrap() {
   const server = app.listen(PORT, () => {
-    console.log(`App listening on port ${PORT}`);
+    console.log(`App is listening on port ${PORT}`);
   });
 }
 
